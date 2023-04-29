@@ -1,0 +1,188 @@
+.btn-about{
+    
+padding: 12px 16px;
+line-height: 1.5;
+background-color: var(--green);
+color:var(--buttabout);
+}
+
+.btn-about:hover{
+background-color: var(--aboutbuttback);
+color: var(--smokewhite);
+}
+
+
+.about-title{
+  color: var(--green);
+  margin-top: 4%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.about-container {
+    width: 100%;
+    max-width: 1180px;
+    margin:50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+  }
+
+.left {
+    width: 55%;
+    height: 500px;
+    background: url(../images/group-people-working-out-business-plan-office.jpg)
+      no-repeat center / cover;
+    border-radius: 8px;
+    z-index: -1;
+  }
+
+  .left2{
+    /* margin-right: -28px; */
+    width: 55%;
+    height: 500px;
+    background: url(../images/LW.jpg)
+      no-repeat center / cover;
+    border-radius: 8px;
+    /* z-index: -1; */
+  }
+
+
+  .right {
+    width: 55%;
+    min-height: 400px;
+    background-color: var(--lightblack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: var(--white);
+    margin-left: -80px;
+  }
+  .right h1 {
+    color: var(--green);
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  .right p {
+    margin: 20px 0;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  .right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--green);
+    /* background-color: #fff; */
+    color: var(--black);
+    padding: 15px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+  }
+
+.right a:hover,.right2 a:hover{
+    background-color:var(--white);
+    /* color: white; */
+    
+    
+
+}
+
+
+  .right2 {
+    z-index: 1;
+    width: 55%;
+    min-height: 400px;
+    background-color: var(--lightblack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: var(--white);
+    margin-right: -82px; 
+    /* margin-left: ;*/
+  }
+  .right2 h1 {
+    color: var(--green);
+    font-size: 40px;
+    font-weight: lighter;
+  }
+
+  .right2 p {
+    margin: 20px 0;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  .right2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--green);
+    color:var(--black);
+    padding: 15px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+  }
+
+  
+   @media only screen and (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      width: 100%;
+      margin: 0px 20px; 
+      margin: 40px auto;
+    }
+    .left{
+      width: 100%;
+      height: 400px;
+    }
+    .right{
+        width: 90%;
+        margin: 0;
+        margin-top: -100px;
+      }
+    .right2{
+      order: 1;
+        width: 90%;
+        margin:0;
+        margin-top: -100px;
+        
+    }
+    .left2{
+      /* align-items: center; */
+      /* justify-content: center;
+      justify-items: center;
+      justify-self: center; */
+      order: 0;
+      width: 100%;
+      height: 400px;
+    }
+
+    
+
+    }
+
+/* .about-des{
+    width: 50%;
+    min-height: 400px;
+    background-color: #303137;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-right: 150px;
+    background-color: #fff;
+    /* margin-right: 50px; */
+/* }  */
+
+
+
+
+
+
+

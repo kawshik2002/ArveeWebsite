@@ -1,0 +1,58 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.price-butt{
+  background-color:var(--green);
+  color: var(--smokewhite);
+}
+.price-butt:hover{
+  background-color: var(--black);
+  color: var(--smokewhite);
+}
+
+.rounded-lg {
+    border-radius: 1rem !important;
+  }
+  
+  .text-small {
+    font-size: 0.9rem !important;
+  }
+
+
+  #price_section{
+    display: block !important;
+    /* flex-direction: column; */
+   
+    /* height: 100%; */
+  }
+.half-back{
+  box-shadow: 0 500px 0 -100px #0f0f0f inset;
+  border-radius: 50px;
+}
+.price_title{
+  color: var(--green) !important;
+}
+
+
+  .h_1{
+/* color: rgb(145, 196, 43);
+ */
+ color: var(--smokewhite);
+  }
+  
+  .custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.2em;
+  }
+  
+  

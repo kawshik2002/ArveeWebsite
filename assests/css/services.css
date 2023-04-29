@@ -1,0 +1,105 @@
+  #services_2 {
+    /* height: 100vh; */
+    width: 90%;
+    display: grid;
+    place-items: center;
+    margin: auto;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .card_services{
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    /* background: linear-gradient(#ffffff 50%, #2c7bfe 50%); */
+    background: linear-gradient(var(--fwhite) 50%, var(--green) 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .h3_service{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+  }
+  
+  .p_service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    
+    color: rgb(73, 74, 71) ;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+
+  /* .p_service:hover {
+color: #0f0f0f !important;
+  } */
+
+  .icon-wrapper {
+    /* background-color: #2c7bfe; */
+    background-color: var(--green);
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    /* color: #ffffff; */
+    color:var(--lightblack);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+  .card_services:hover {
+    background-position: 0 100%;
+  }
+  .card_services:hover .icon-wrapper {
+    background-color: var(--fwhite);
+    /* background-color: #0f0f0f; */
+color: var(--green);
+    /* color: #2c7bfe; */
+
+  }
+  .card_services:hover .h3_service {
+    color: var(--fwhite);
+    /* color: #0f0f0f; */
+
+  }
+  .card_services:hover .p_service {
+    /* color: #f0f0f0; */
+    color: var(--lightblack);
+
+  }
+  @media screen and (min-width: 768px) {
+    #services_2 {
+      padding: 0 2em;
+    }
+    .column {
+      flex: 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    #services_2 {
+      padding: 1em 3em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }

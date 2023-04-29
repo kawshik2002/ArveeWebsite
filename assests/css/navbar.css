@@ -1,0 +1,10 @@
+.nav-bg{
+    background-color: var(--green);
+}
+
+
+.collapse ul li a{
+    font-weight: 500;
+      padding-left: 2%;
+      font-size: 18px;
+    }
